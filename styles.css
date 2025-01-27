@@ -109,6 +109,8 @@ h3 {
 .image {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 0 5px;
     flex-grow: 0;
@@ -149,7 +151,9 @@ blockquote {
     background-color: #3882f6;
     display: flex;
     justify-content: space-around;
-    margin: 50px 200px;
+    gap: 70px;
+    margin: 50px 150px;
+    padding: 25px 50px;
 }
 .cnt1 {
     display: flex;
@@ -158,5 +162,26 @@ blockquote {
 }
 
 .cnt1 p{
-    
+    margin: 0;
+}
+
+.sign-up button{
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-color: #E5E7EB;
+    border-width: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 10px 100px;
+    padding: 50px;
+    color: #f9faf8;
+    text-align: center;
 }
